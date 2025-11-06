@@ -44,7 +44,7 @@ if not api_key:
 if api_key:
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(
-        model_name='gemini-pro',
+        model_name='models/gemini-2.5-pro',
         system_instruction=KELLY_PERSONA
     )
     
